@@ -79,7 +79,7 @@
       <workItem from="1606145743687" duration="472000" />
       <workItem from="1606146230864" duration="2932000" />
       <workItem from="1606151597150" duration="2010000" />
-      <workItem from="1606153838733" duration="788000" />
+      <workItem from="1606153838733" duration="2330000" />
     </task>
     <servers />
   </component>
@@ -90,5 +90,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1193" y="244" key="RiderGenerateDialog" timestamp="1606155898137">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1193" y="244" key="RiderGenerateDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606155898137" />
   </component>
 </project>
