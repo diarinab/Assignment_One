@@ -94,9 +94,11 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
+          <e p="ElevatorController.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="PatrolEnemyController.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="Rotation.cs" t="Include" />
         </e>
       </e>
       <e p="Assignment_One.sln" t="IncludeFlat" />

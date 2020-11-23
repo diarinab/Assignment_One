@@ -11,6 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PatrolEnemyController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -20,8 +21,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Elevator_Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PatrolEnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ElevatorController.cs" />
       </list>
     </option>
   </component>
@@ -75,6 +78,8 @@
       <workItem from="1606143138778" duration="1335000" />
       <workItem from="1606145743687" duration="472000" />
       <workItem from="1606146230864" duration="2932000" />
+      <workItem from="1606151597150" duration="2010000" />
+      <workItem from="1606153838733" duration="788000" />
     </task>
     <servers />
   </component>
