@@ -8,8 +8,8 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private GameObject playerObject = null;
     [SerializeField] private float detectionRadius = 4f;
 
-    [SerializeField] private Material aggressiveMat;
-    [SerializeField] private Material calmMat;
+    [SerializeField] private Material aggressiveMat = null;
+    [SerializeField] private Material calmMat = null;
 
     private NavMeshAgent agent;
     private Vector3 startingPosition;
