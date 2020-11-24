@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerObject: {fileID: 193838191}
-  detectionRadius: 2
+  detectionRadius: 4
   aggressiveMat: {fileID: 2100000, guid: 093c9e248d43a0e48a27b826b738032a, type: 2}
   calmMat: {fileID: 2100000, guid: b8386f0b3ae5bdd4283553abbc7ee4d3, type: 2}
 --- !u!135 &168379424
@@ -3034,13 +3034,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: 0.34096035, y: -0, z: -0, w: 0.9400778}
-  m_LocalPosition: {x: 5, y: 13.086, z: -4.921}
+  m_LocalRotation: {x: 0.4763916, y: 0, z: 0, w: 0.87923324}
+  m_LocalPosition: {x: 5, y: 14.6, z: -5.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 39.871002, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 56.9, y: 0, z: 0}
 --- !u!114 &1687258586
 MonoBehaviour:
   m_ObjectHideFlags: 0
