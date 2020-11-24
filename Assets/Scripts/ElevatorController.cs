@@ -6,26 +6,23 @@ using UnityEngine.AI;
 
 public class ElevatorController : MonoBehaviour
 {
-    [SerializeField] private float elevationSpeed = 10f;
-    [SerializeField] private Transform[] wayPoints = null;
-    
-    private NavMeshAgent agent;
-    private Vector3 startingPosition;
-    
-    private int wayPointIndex = 0;
+    [SerializeField] private GameObject[] waypoints;
+    [SerializeField] private float elevationSpeed = 1f;
+    private int waypointIndex = 0;
+    private float waypointRadius = 1;
 
-    protected virtual Vector3 GetNextDestination()
+    private void Update()
     {
-        Vector3 destination = wayPoints[wayPointIndex].position;
+        if (Vector3.Distance(waypoints[waypointIndex].transform.position, transform.position) < waypointRadius)
+        {
+            waypointIndex++;
+            if (waypointIndex >= waypoints.Length)
+            {
+                waypointIndex = 0;
+            }
+        }
 
-        wayPointIndex = (wayPointIndex + 1) % wayPoints.Length;
-
-        return destination;
+        transform.position = Vector3.MoveTowards(transform.position, waypoints[waypointIndex].transform.position,
+            Time.deltaTime * elevationSpeed);
     }
-    private void Start()
-    {
-        startingPosition = gameObject.transform.position;
-    }
-    
-   
 }
